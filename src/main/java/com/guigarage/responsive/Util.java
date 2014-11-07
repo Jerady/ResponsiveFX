@@ -11,6 +11,9 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.Consumer;
 
+/**
+ * A util class that defines some static methods to work with the JavaFX Scene Graph.
+ */
 public class Util {
 
     public static List<Node> getAllNodesInWindow(Window window) {

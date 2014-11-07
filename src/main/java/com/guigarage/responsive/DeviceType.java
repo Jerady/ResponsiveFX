@@ -35,6 +35,14 @@ public enum DeviceType {
 
     public static final PseudoClass PSEUDO_CLASS_LG = PseudoClass.getPseudoClass("large-device");
 
+    public static final String STYLE_CLASS_XS_HIDDEN = "hidden-xs";
+
+    public static final String STYLE_CLASS_SM_HIDDEN = "hidden-sm";
+
+    public static final String STYLE_CLASS_MD_HIDDEN = "hidden-md";
+
+    public static final String STYLE_CLASS_LG_HIDDEN = "hidden-lg";
+
     public static final String STYLE_CLASS_XS_VISIBLE = "visible-xs";
 
     public static final String STYLE_CLASS_SM_VISIBLE = "visible-sm";

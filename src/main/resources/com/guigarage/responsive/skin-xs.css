@@ -1,3 +1,5 @@
+/* This is an internal CSS file that is used to define the supported style classes for a extra small application size.
+Normally an application developer should not use this file. */
 .visible-sm {
     visibility: collapse;
 }

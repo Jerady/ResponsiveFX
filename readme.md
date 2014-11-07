@@ -1,0 +1,1 @@
+see http://www.guigarage.com/2014/11/responsive-design-javafx/
