@@ -16,7 +16,7 @@ import java.util.function.Consumer;
  */
 public class Util {
 
-    public static List<Node> getAllNodesInWindow(Window window) {
+     public static List<Node> getAllNodesInWindow(Window window) {
         Parent root = Optional.of(window).map(w -> w.getScene()).map(s -> s.getRoot()).get();
         if (root == null) {
             return new ArrayList<>();
@@ -42,7 +42,7 @@ public class Util {
     private static ListChangeListener<Node> createRecursiveChildObserver(Consumer<Node> onRemove, Consumer<Node> onAdd) {
         return new ListChangeListener<Node>() {
             @Override
-            public void onChanged(Change<? extends Node> change) {
+            public void onChanged(ListChangeListener.Change<? extends Node> change) {
                 while (change.next()) {
                     if (change.wasAdded()) {
                         for (Node addedChild : change.getAddedSubList()) {

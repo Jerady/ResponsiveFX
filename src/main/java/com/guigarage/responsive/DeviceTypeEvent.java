@@ -1,7 +1,6 @@
 package com.guigarage.responsive;
 
 import javafx.event.Event;
-import javafx.event.EventTarget;
 import javafx.event.EventType;
 import javafx.scene.Node;
 
